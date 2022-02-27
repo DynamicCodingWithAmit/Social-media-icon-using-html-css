@@ -1,0 +1,69 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+.leftside{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 240px;
+    align-items: center;
+    color:#Fff;
+
+}
+.leftside i{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.leftside i:hover{
+    background-color: white;
+
+}
+
+.leftside .fa-facebook{
+    background-color: #4267b2;
+}
+.leftside .fa-whatsapp{
+    background-color: rgb(0,255,0);
+}
+.leftside .fa-instagram{
+    background-color: orange;
+}
+.leftside .fa-youtube{
+    background-color: red;
+}
+
+.leftside i:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+/*****hover effect*************/
+.leftside .fa-facebook:hover{
+    color: #4267b2;
+}
+.leftside .fa-whatsapp:hover{
+    color: rgb(0,255,0);
+}
+.leftside .fa-instagram:hover{
+    color: orange;
+}
+.leftside .fa-youtube:hover{
+    color: red;
+}
